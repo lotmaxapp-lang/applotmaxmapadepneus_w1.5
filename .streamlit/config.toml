@@ -1,0 +1,22 @@
+[server]
+enableCORS = false
+enableXsrfProtection = false
+maxUploadSize = 20
+# ESTA LINHA É A MAIS IMPORTANTE PARA O CELULAR:
+enableWebsocketCompression = false
+
+[browser]
+# Força o navegador a não tentar adivinhar o endereço
+gatherUsageStats = false
+
+[theme]
+primaryColor = "#d33682"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+font = "sans serif"
+
+[lang]
+# Esta linha muda os textos padrão (Drag and drop, etc) para PT-BR
+current = "pt-BR"
+
