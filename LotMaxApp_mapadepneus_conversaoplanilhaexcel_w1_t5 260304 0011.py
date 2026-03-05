@@ -151,7 +151,7 @@ with c_titulo:
                 {versao_app}
             </span>
             <span style='color: transparent; font-size: 0.5rem; user-select: text;'>
-                 {sys.version}.{sys.executable}
+                 {sys.version} . {sys.executable} . {st.__version__}
             </span>
         </h3>
     """, unsafe_allow_html=True)
@@ -318,3 +318,4 @@ if uploaded_file:
 
 else:
     st.info("Aguardando upload do arquivo Excel ou ODS...")
+
